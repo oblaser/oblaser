@@ -1,5 +1,5 @@
 ## Website
-On my [website](https://oblaser.ch/projekte/) you can find more projects and HAM Radio related stuff.
+On my [website](https://oblaser.ch/) you can find more projects and HAM Radio related stuff.
 
 ## C/C++
 I think every C/C++ developper should have read this: <http://utf8everywhere.org/>.
