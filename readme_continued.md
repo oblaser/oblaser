@@ -11,4 +11,4 @@ On my [website](https://oblaser.ch/) you can find more projects and HAM Radio re
 
 
 ## Support
-If you would like to support me, you can do so: [buy me a coffee](https://www.buymeacoffee.com/oblaser). Thank you!
+If you would like to support me, you can do so by [PayPal or credit card](https://www.paypal.com/donate/?hosted_button_id=UHY6CN72QW334). Thank you!
