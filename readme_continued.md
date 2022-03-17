@@ -9,8 +9,12 @@ On my [website](https://oblaser.ch/) you can find more projects and HAM Radio re
   - [Programming with Unicode](https://unicodebook.readthedocs.io/)
   - [UTF-8 Everywhere](http://utf8everywhere.org/)
 
+
 ---
 
+
 ## Support
+
 > Added because I was asked to
+
 If you would like to support me, you can do so by [PayPal or credit card](https://www.paypal.com/donate/?hosted_button_id=UHY6CN72QW334). Thank you!
