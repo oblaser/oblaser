@@ -13,8 +13,5 @@ On my [website](https://oblaser.ch/) you can find more projects and HAM Radio re
 ---
 
 
-## Support
-
-> Added because I was asked to
-
+## Support (because you asked)
 If you would like to support me, you can do so by [PayPal or credit card](https://www.paypal.com/donate/?hosted_button_id=UHY6CN72QW334). Thank you!
