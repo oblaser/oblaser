@@ -3,6 +3,13 @@ root = true
 
 [*.{c++,cc,cpp,cppm,cxx,h,h++,hh,hpp,hxx,inl,ipp,ixx,tlh,tli}]
 
+# not from VS, by Oliver Blaser ################################################
+
+end_of_line = lf
+indent_style = space
+indent_size = 4
+################################################################################
+
 # Visual C++ Code Style settings
 
 cpp_generate_documentation_comments = doxygen_double_slash_exclamation
