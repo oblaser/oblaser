@@ -2,7 +2,7 @@
 
 Path: `%APPDATA%\Code\User\settings.json`
 
-```json
+```jsonc
 {
     // default stuff...
 
