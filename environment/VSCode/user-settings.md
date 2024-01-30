@@ -8,6 +8,7 @@ Path:
 {
     // default stuff...
 
+    "files.eol": "\n",
     "window.restoreWindows": "none",
     "editor.rulers": [120],
     "[git-commit]": { "editor.rulers": [50] },
