@@ -8,6 +8,9 @@ Path:
 {
     // default stuff...
 
+    "editor.fontSize": 13, // on Windows
+    "editor.fontSize": 12, // on Linux
+
     "files.eol": "\n",
     "window.restoreWindows": "none",
     "editor.rulers": [120],
