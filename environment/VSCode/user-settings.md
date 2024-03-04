@@ -15,6 +15,21 @@ Path:
     "window.restoreWindows": "none",
     "editor.rulers": [120],
     "[git-commit]": { "editor.rulers": [50] },
+
+    // clang-format
+    // see infos at https://marketplace.visualstudio.com/items?itemName=xaver.clang-format
+    "[c][cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+
+    "clang-format.executable": "clang-format", // or absolute path if not available in PATH env var
+    "clang-format.style": "file",
+    "clang-format.fallbackStyle": "none",
+    "clang-format.formatOnSave": true,
+    "clang-format.formatOnType": false,
+    "clang-format.arguments": [
+        "-assume-filename=${workspaceFolder}/.clang-format"
+    ],
 }
 ```
 
