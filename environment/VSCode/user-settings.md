@@ -22,7 +22,7 @@ Path:
         "editor.defaultFormatter": "xaver.clang-format"
     },
 
-    "clang-format.executable": "clang-format", // or absolute path if not available in PATH env var
+    "clang-format.executable": "${env.PROGRAMFILES}/LLVM/bin/clang-format.exe",
     "clang-format.style": "file",
     "clang-format.fallbackStyle": "none",
     "clang-format.formatOnSave": true,
