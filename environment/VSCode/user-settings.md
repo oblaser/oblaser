@@ -17,8 +17,11 @@ Path:
     "editor.rulers": [120],
     "[git-commit]": { "editor.rulers": [50] },
 
+    "editor.formatOnSave": false,
+
     "[c][cpp]": {
-        "editor.defaultFormatter": "xaver.clang-format"
+        "editor.defaultFormatter": "xaver.clang-format",
+        // "editor.formatOnSave": false,
     },
 
     // clang-format
