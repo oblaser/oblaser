@@ -30,7 +30,7 @@ AlignTrailingComments:
 AllowAllArgumentsOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortBlocksOnASingleLine: Always
-AllowShortCaseLabelsOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: false
 AllowShortEnumsOnASingleLine: true
 AllowShortFunctionsOnASingleLine: All
 AllowShortIfStatementsOnASingleLine: AllIfsAndElse
