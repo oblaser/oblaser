@@ -79,7 +79,7 @@ BreakConstructorInitializers: BeforeColon
 BreakInheritanceList: AfterComma
 BreakStringLiterals: true
 ColumnLimit: 160
-CommentPragmas: '^[^ ]' # clang-format doesn't touch comments that start with something other than a space
+#CommentPragmas: '^[^ ]' # clang-format doesn't touch comments that start with something other than a space
 CompactNamespaces: false
 ConstructorInitializerIndentWidth: 4
 ContinuationIndentWidth: 4
