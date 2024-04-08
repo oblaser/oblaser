@@ -24,6 +24,13 @@ Path:
         // "editor.formatOnSave": false,
     },
 
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.defaultFormatter": "xaver.clang-format",
+    },
+
+    "gitlens.hovers.enabled": false,
+
     // clang-format
     // see infos at https://marketplace.visualstudio.com/items?itemName=xaver.clang-format
     "clang-format.executable": "${env.PROGRAMFILES}/LLVM/bin/clang-format.exe",
