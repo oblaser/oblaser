@@ -1,4 +1,4 @@
-# Visual Studio Code User Settings
+# Visual Studio Code User (or Workspace/Project) Settings
 
 Path:
 - `%APPDATA%\Code\User\settings.json`
@@ -27,6 +27,11 @@ Path:
     "[javascript]": {
         "editor.maxTokenizationLineLength": 2500,
         "editor.defaultFormatter": "xaver.clang-format",
+    },
+
+    "[markdown]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 120,
     },
 
     "gitlens.hovers.enabled": false,
