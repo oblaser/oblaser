@@ -46,6 +46,11 @@ Path:
     "clang-format.arguments": [
         "-assume-filename=${workspaceFolder}/.clang-format"
     ],
+
+    "files.associations": {
+        "*.pjob": "shellscript",
+        "potorooJob*": "shellscript",
+    },
 }
 ```
 
