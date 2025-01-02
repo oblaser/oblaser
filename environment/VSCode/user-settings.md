@@ -6,27 +6,47 @@ Path:
 
 ```jsonc
 {
-    // default stuff...
+    // maybe default stuff
+    // ...
 
-    "editor.fontSize": 13, // on Windows
-    "editor.fontSize": 12, // on Linux
+    // my settings
 
-    "files.eol": "\n",
-    "window.restoreWindows": "none",
-    "files.hotExit": "off",
-    "editor.rulers": [120],
-    "[git-commit]": { "editor.rulers": [50] },
-
+    // "editor.fontSize": ?, // e.g. Windows 13, Linux 12
     "editor.formatOnSave": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [ 120 ],
+
+    "files.associations": {
+        "*.pjob": "shellscript",
+        "potorooJob*": "shellscript",
+        "*.h": "c",
+    },
+    "files.eol": "\n",
+    "files.hotExit": "off",
+
+    "window.restoreWindows": "none",
+
+
+
+    // language specific
 
     "[c][cpp]": {
         "editor.defaultFormatter": "xaver.clang-format",
-        // "editor.formatOnSave": false,
+        // "editor.formatOnSave": true,
+    },
+
+    "[git-commit]": {
+        "editor.rulers": [ 50 ],
+    },
+
+    "[bat]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 180,
     },
 
     "[javascript]": {
-        "editor.maxTokenizationLineLength": 2500,
         "editor.defaultFormatter": "xaver.clang-format",
+        "editor.maxTokenizationLineLength": 2500,
     },
 
     "[markdown]": {
@@ -34,23 +54,24 @@ Path:
         "editor.wordWrapColumn": 120,
     },
 
+
+
+    // extensions
+
     "gitlens.hovers.enabled": false,
 
-    // clang-format
     // see infos at https://marketplace.visualstudio.com/items?itemName=xaver.clang-format
-    "clang-format.executable": "${env.PROGRAMFILES}/LLVM/bin/clang-format.exe",
+    // "clang-format.executable": "${env.PROGRAMFILES}/LLVM/bin/clang-format.exe",
     "clang-format.style": "file",
     "clang-format.fallbackStyle": "none",
     "clang-format.formatOnSave": false,
     "clang-format.formatOnType": false,
-    "clang-format.arguments": [
-        "-assume-filename=${workspaceFolder}/.clang-format"
-    ],
+    "clang-format.arguments": [ "-assume-filename=${workspaceFolder}/.clang-format" ],
 
-    "files.associations": {
-        "*.pjob": "shellscript",
-        "potorooJob*": "shellscript",
-    },
+
+
+    // automatically added by VS Code
+
 }
 ```
 
