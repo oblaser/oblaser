@@ -19,6 +19,7 @@ Path:
     "files.associations": {
         "*.pjob": "shellscript",
         "potorooJob*": "shellscript",
+        "*.hts": "xml",
         "*.h": "c",
     },
     "files.eol": "\n",
