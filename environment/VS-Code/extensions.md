@@ -8,3 +8,4 @@
 - [Edit csv (janisdd)](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
 - [Overtype (DrMerfy)](https://marketplace.visualstudio.com/items?itemName=DrMerfy.overtype)
 - [HTML CSS Support (ecmel)](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+- [Markdown Table Formatter](https://marketplace.visualstudio.com/items?itemName=fcrespo82.markdown-table-formatter)
