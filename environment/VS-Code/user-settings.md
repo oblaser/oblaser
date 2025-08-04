@@ -12,6 +12,7 @@ Path:
     // my settings
 
     // "editor.fontSize": ?, // e.g. Windows 13, Linux 12
+    "editor.suggest.insertMode": "insert",
     "editor.formatOnSave": false,
     "editor.renderWhitespace": "all",
     "editor.rulers": [ 120 ],
