@@ -12,6 +12,7 @@
 *.sdb
 *.sym
 
+/defmplabxtrace.log*
 /.generated_files/
 /build/
 /debug/
