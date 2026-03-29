@@ -78,4 +78,6 @@ Path:
 
 prevent opening last window: [https://stackoverflow.com/a/36797180](https://stackoverflow.com/a/36797180)
 
+Color Theme: _Dark Modern_
+
 ruler customisation: [https://stackoverflow.com/a/60292520](https://stackoverflow.com/a/60292520)
